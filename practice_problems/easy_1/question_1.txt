@@ -1,0 +1,6 @@
+1
+2
+2
+3
+
+The method .uniq does not mutate the caller, so the array numbers is unchanged.

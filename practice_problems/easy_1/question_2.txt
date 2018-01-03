@@ -1,0 +1,15 @@
+! has two standard meanings in Ruby. When placed before a boolean expression,
+  it returns the opposite of that value, i.e. !true becomes false.
+  The second standard meaning is when ! is placed at the end of a method name,
+  which implies that the method is destructive, i.e., will mutate the caller.
+
+? is typically placed at the end of a method name to imply that the method will
+  return a boolean value.
+
+  1. != translates to "not equal to" and is typically used in a conditional
+    statement, such as "while count != 5"
+  2. Placing ! before an object changes its boolean status (true to false or vice versa)
+  3. Placing ! after an object implies (but does not force) that the method is destructive
+  4. Placing ? before something does not alter the object
+  5. Placing ? after an object implies (but does not force) that the method will return a boolean value
+  6. Placing !! before something turns an object into its boolean value
