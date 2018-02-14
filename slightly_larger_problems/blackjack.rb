@@ -55,7 +55,7 @@ def display(standing, chips, bet, dealer, player, pause, dd, current_hand = nil)
     puts "[ #{dealer.join(' | ')} ]".center(40) + value(dealer).to_s
   end
   puts
-  puts 'Insurance pays 3 to 2'.center(40)
+  puts 'Insurance pays 2 to 1'.center(40)
   puts
   puts 'Dealer hits to 17'.center(40)
   puts
